@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header .navbar{
+	background-image: linear-gradient(to bottom, #020024, #000839, #000e4e, #000e64, #090979);
+	
+}
+.navbar-brand{
+	color: white!important;
+	font-family: 'Lobster', cursive;
+}
+.nav-link{
+	color: white!important;
+	font-family: 'Roboto Mono', monospace;
+}
+.navbar-nav{
+	margin-left: 2rem;
+}
+.active a{
+	color: yellow !important;
+}
+.notActive a:hover{
+	color: blue !important;
+}
